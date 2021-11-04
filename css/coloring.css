@@ -190,7 +190,7 @@ address.s1 span i,
 .profile_username,
 .de_tab.tab_methods .de_nav li.active span i,
 a.btn-main.btn-light {
-    color: var(--secondary-color);
+    color: #ffff;
 }
 
 .id-color-3,
