@@ -34,7 +34,7 @@ $(document).ready(function() {
     }else{
         // alert('else');
     }
-    
+
     renderAssets();
     function renderAssets() {
         console.log(assets,121212)
@@ -55,7 +55,7 @@ $(document).ready(function() {
                         <div class="nft__item_wrap">
                             <div class="nft__item_extra">
                                 <div class="nft__item_buttons">
-                                    <button onclick="location.href='03_grey-item-details.html'">Buy
+                                    <button onclick="location.href='${value.permalink}'">Buy
                                         Now</button>
                                     <div class="nft__item_share">
                                         <h4>Share</h4>
@@ -69,14 +69,14 @@ $(document).ready(function() {
                                     </div>
                                 </div>
                             </div>
-                            <a href="${value.permalink}">
+                            <a href="javascript:void(0)">
                                 <img src="${value.image_url}" class="lazy nft__item_preview"
                                     alt="">
                             </a>
                         </div>
                         <div class="nft__item_info">
                             <a href="03_grey-item-details.html">
-                                <h4>Green Frogman</h4>
+                                <h4>${value.name}</h4>
                             </a>
                             <div class="nft__item_click">
                                 <span></span>
